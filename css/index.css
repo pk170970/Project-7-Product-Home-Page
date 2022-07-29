@@ -18,11 +18,13 @@ nav {
 nav img:first-child {
     width: 12vw;
     height: 6vh;
+    cursor: pointer;
 }
 
 .nav-items {
     display: flex;
     margin-left: 109px;
+    cursor: pointer;
 }
 
 .nav-item {
@@ -35,10 +37,12 @@ nav img:first-child {
 .nav-item.active-item {
     color: #FE5E35;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 nav img:last-child {
     margin-right: -90px px;
+    cursor: pointer;
 }
 
 
@@ -117,6 +121,7 @@ nav img:last-child {
     text-align: center;
     margin-right: -67px;
     font-family: 'Poppins';
+    cursor: pointer;
 }
 
 
@@ -177,6 +182,7 @@ nav img:last-child {
     position: absolute;
     left: 204px;
     bottom: 40px;
+    cursor: pointer;
 }
 .dot{
     width: 25px;
@@ -198,4 +204,5 @@ nav img:last-child {
     position: absolute;
     left: 100px;
     bottom: -20px;
+    cursor: pointer;
 }
