@@ -33,6 +33,10 @@ nav img:first-child {
     font-family: 'Poppins';
     font-weight: normal;
 }
+.nav-item:hover{
+    color: #FE5E35;
+    font-weight: bold;
+}
 
 .nav-item.active-item {
     color: #FE5E35;
@@ -123,7 +127,9 @@ nav img:last-child {
     font-family: 'Poppins';
     cursor: pointer;
 }
-
+.action-btn:hover{
+    background-color: #000000;
+}
 
 /* -----------------------------Right Section ------------------------ */
 
@@ -143,7 +149,7 @@ nav img:last-child {
     width: 34vw;
     height: 67vh;
     position: absolute;
-   top: -45px;
+   top: -43px;
     left: 43px;
 }
 .headphone-div img:first-child{
